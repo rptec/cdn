@@ -1,5 +1,3 @@
-
-
 $(document).ready(function() {
     //判断窗口大小，添加输入框自动完成
     var wid = $("body").width();
@@ -14,18 +12,18 @@ $(document).ready(function() {
         wd = $(".wd").val();
         if (dt == "google") {
             if (wd == "" || wd == null) {
-                window.location.href = "https://www.baidu.com/?tn=simple";
+                window.location.href = "https://www.google.com/?hl=zh";
             } else {
-                $("form").attr('action', 'https://www.baidu.com/s?ie=utf-8');
+                $("form").attr('action', 'https://www.google.com/search?hl=zh');
                 $(".wd").attr("name","q");
                 $(".t").val("g");
                 $("form").submit();
             }
         } else {
             if (wd == "" || wd == null) {
-                window.location.href = "https://www.google.com/?hl=zh";
+                window.location.href = "https://www.baidu.com/?tn=simple";
             } else {
-                $("form").attr('action', 'https://www.google.com/search?hl=zh');
+                $("form").attr('action', 'https://www.baidu.com/s?ie=utf-8');
                 $(".wd").attr("name","wd");
                 $(".t").val("b");
                 $("form").submit();
