@@ -67,7 +67,7 @@ root_need
 ovz_no
 clear
 echo -e "———————————————————————————————————————"
-echo -e "${Green}Linux VPS一键添加/删除swap脚本${Font}"
+echo -e "${Green}一键添加/删除swap脚本${Font}"
 echo -e "${Green}1、添加swap${Font}"
 echo -e "${Green}2、删除swap${Font}"
 echo -e "———————————————————————————————————————"
